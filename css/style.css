@@ -247,7 +247,7 @@ Contact
   margin-bottom: 100px;
 }
 .btn{
-  margin-top: 30px;
+  margin-top: 40px;
   color: white;
   font-size: 1.5em;
   background-color: #FFC107;
@@ -345,14 +345,18 @@ Frant
   font-size: 1.3em;
   padding: 20px;
 }
-.frant-user-interviews,
+.frant-user-journey{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
 .frant-sketching,
 .frant-wireframes,
 .frant-final-result{
   font-size: 1.3em;
   padding: 20px;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 #frant-logo{
   width: 90%;
@@ -362,7 +366,7 @@ Frant
   width: 100%;
 }
 .frant-final-img{
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   width: 100%;
 }
 .other-works{
@@ -377,30 +381,38 @@ Frant
 /**********************************************************
 xfers 
 **********************************************************/
-.project-container{
-  margin-left: 32px;
+
+.xfers-user-journey{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.xfers-initial-concept{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-top: -20px;
 }
 .xfers-intro{
   font-size: 1.3em;
   padding: 20px;
-  margin-top: 40px;
-  margin-bottom: 50px;
 }
-.xfers-web-mobile,
-.xfers-initial-concept,
-.xfers-user-journey,
-.xfers-sketching,
-.frant-wireframes,
-.frant-final-result{
+.xfers-web-mobile{
   font-size: 1.3em;
   padding: 20px;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: -20px;
 }
-.startup-weekend{
-  width: 105%;
-  margin-left: -15px;
+.xfers-user-journey,
+.xfers-sketching,
+.xfers-wireframes,
+.xfers-final-result{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 .xfers-img{
+  width: 100%;
+}
+.xfers-final-img{
+  margin-bottom: 40px;
   width: 100%;
 }
