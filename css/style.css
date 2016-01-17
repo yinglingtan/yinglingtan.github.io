@@ -18,14 +18,14 @@ p{
 }
 
 .nav {
-	margin-top: 100px; 
+  margin-top: 100px; 
   margin-bottom: 10px;
 }
 .nav li a, 
 .nav li a:hover {
-	background: none; 
-	color: black; 
-	font-size: 1.1em;
+  background: none; 
+  color: black; 
+  font-size: 1.1em;
 }
 .cta-button{
   color: #03A9F4;
@@ -335,7 +335,7 @@ Frant
   margin-left: -15px;
 }
 .frant-img{
-  width: 100%;
+  width: 50%;
 }
 /**********************************************************
 Xfers 
