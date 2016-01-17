@@ -51,7 +51,10 @@ Nav Bar
 .yl-logo{
   width: 45%;
   margin-top: 100px;
-  margin-left: 35px;
+  margin-bottom: -60px
+}
+.col-md-7{
+  padding: 0px;
 }
 
 
@@ -59,7 +62,9 @@ Nav Bar
 Header
 **********************************************************/
 .header{
-  width: 100%;
+  width: 97.5%;
+  margin-left: 15px;
+  margin-top: 40px;
 }
 
 
@@ -79,7 +84,7 @@ Portfolio
 }
 
 .featured-work{
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -199,32 +204,39 @@ Portfolio
 About Me 
 **********************************************************/
 .about-me{
+  margin-top: 50px;
   text-align: center;
 }
 
 .profilepic{
   margin-top: 40px;
   width: 100%;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  margin-left: 14px;
 }
 
 .about-text{
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: -12px;
   font-size: 1.3em;
-
 }
 
 /**********************************************************
 Work Experience
 **********************************************************/
+.job-exp{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 .icons{
   width: 1px;
 }
 
 .resume{
   padding: 10px 10px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /**********************************************************
