@@ -134,7 +134,7 @@ Portfolio
   background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 28%,rgba(0,0,0,0.13) 50%,rgba(0,0,0,0.41) 100%); /* Opera 12+ */
   background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 28%,rgba(0,0,0,0.13) 50%,rgba(0,0,0,0.41) 100%); /* IE10+ */
   background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 28%,rgba(0,0,0,0.13) 50%,rgba(0,0,0,0.41) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#69000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  filter: progid:DxImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#69000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .work li:after
 {
@@ -338,21 +338,21 @@ Frant
   width: 100%;
 }
 /**********************************************************
-Xfers 
+xfers 
 **********************************************************/
 .project-container{
   margin-left: 32px;
 }
-.Xfers-intro{
+.xfers-intro{
   font-size: 1.3em;
   padding: 20px;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-.Xfers-web-mobile,
-.Xfers-initial-concept,
-.Xfers-user-journey,
-.Xfers-sketching,
+.xfers-web-mobile,
+.xfers-initial-concept,
+.xfers-user-journey,
+.xfers-sketching,
 .frant-wireframes,
 .frant-final-result{
   font-size: 1.3em;
@@ -364,6 +364,6 @@ Xfers
   width: 105%;
   margin-left: -15px;
 }
-.Xfers-img{
+.xfers-img{
   width: 100%;
 }
