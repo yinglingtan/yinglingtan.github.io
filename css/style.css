@@ -48,7 +48,7 @@ p{
 /**********************************************************
 Nav Bar 
 **********************************************************/
-#yl-logo{
+.yl-logo{
   width: 45%;
   margin-top: 100px;
   margin-left: 35px;
@@ -59,9 +59,7 @@ Nav Bar
 Header
 **********************************************************/
 .header{
-  margin-top: 40px;
-  margin-left: 50px;
-  width: 94%;
+  width: 100%;
 }
 
 
@@ -84,10 +82,6 @@ Portfolio
   margin-top: 40px;
   text-align: center;
   margin-bottom: 50px;
-/*  background-color: blue;
-  width: 96.5%;
-  height: 120%;
-  margin-left: 35px;*/
 }
 .largecube{
   width: 200%;
@@ -178,7 +172,7 @@ Portfolio
   
 }
 
-#work li:hover span
+.work li:hover span
 {
   display: block;
 }
@@ -197,7 +191,7 @@ Portfolio
   color: #000;
   font-size: 15px;
 }
-#work2{
+.work2{
   margin-bottom: 35px;
 }
 
@@ -208,7 +202,7 @@ About Me
   text-align: center;
 }
 
-#profilepic{
+.profilepic{
   margin-top: 40px;
   width: 100%;
   margin-bottom: 50px
@@ -224,7 +218,7 @@ About Me
 /**********************************************************
 Work Experience
 **********************************************************/
-#icons{
+.icons{
   width: 1px;
 }
 
@@ -252,19 +246,19 @@ Contact
 Contact Dock
 **********************************************************/
 
-#email{
+.email{
   width: 12%;
   padding-bottom: 5px;
   padding-right: 3px;
 }
 
-#linkedin{
+.linkedin{
   padding-bottom: 5px;
   padding-right: 5px;
   width: 20%;
 }
 
-#contact-dock
+.contact-dock
 {
   position: fixed;
   width: 100%;
@@ -292,23 +286,23 @@ Contact Dock
   line-height: 40px;
   height: 40px;
 }
-#contact-details
+.contact-details
 {
   width:1000px;
   margin:0 auto;
 }
-#contact-dock, .dock-email a, .dock-linkedIn a, .dock-dribble a
+.contact-dock, .dock-email a, .dock-linkedIn a, .dock-dribble a
 {
   color:#fff;
   text-decoration:none;
   padding-right:25px;
   line-height: 40px;
 }
-#contact-dock, .dock-email a:hover, .dock-linkedIn a:hover, .dock-dribble a:hover
+.contact-dock, .dock-email a:hover, .dock-linkedIn a:hover, .dock-dribble a:hover
 {
   color: #fff;
 }
-#contact-dock, .show-this
+.contact-dock, .show-this
 {
   margin-bottom: 0;
 }
@@ -319,28 +313,28 @@ Frant
 .project-container{
   margin-left: 32px;
 }
-#frant-intro{
+.frant-intro{
   font-size: 1.3em;
   padding: 20px;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-#frant-initial-concept,
-#frant-user-interviews,
-#frant-user-journey,
-#frant-sketching,
-#frant-wireframes,
-#frant-final-result{
+.frant-initial-concept,
+.frant-user-interviews,
+.frant-user-journey,
+.frant-sketching,
+.frant-wireframes,
+.frant-final-result{
   font-size: 1.3em;
   padding: 20px;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-#startup-weekend{
+.startup-weekend{
   width: 105%;
   margin-left: -15px;
 }
-#frant-img{
+.frant-img{
   width: 100%;
 }
 /**********************************************************
@@ -349,27 +343,27 @@ Xfers
 .project-container{
   margin-left: 32px;
 }
-#Xfers-intro{
+.Xfers-intro{
   font-size: 1.3em;
   padding: 20px;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-#Xfers-web-mobile,
-#Xfers-initial-concept,
-#Xfers-user-journey,
-#Xfers-sketching,
-#frant-wireframes,
-#frant-final-result{
+.Xfers-web-mobile,
+.Xfers-initial-concept,
+.Xfers-user-journey,
+.Xfers-sketching,
+.frant-wireframes,
+.frant-final-result{
   font-size: 1.3em;
   padding: 20px;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-#startup-weekend{
+.startup-weekend{
   width: 105%;
   margin-left: -15px;
 }
-#Xfers-img{
+.Xfers-img{
   width: 100%;
 }
