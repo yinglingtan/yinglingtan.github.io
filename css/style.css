@@ -322,18 +322,30 @@ Contact Dock
 /**********************************************************
 Frant
 **********************************************************/
+.yl-logo-2{
+  width: 45%;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
 .project-container{
   margin-left: 32px;
 }
-.frant-intro{
+#frant-intro{
   font-size: 1.3em;
-  padding: 20px;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-.frant-initial-concept,
+.frant-user-journey{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.frant-initial-concept{
+  font-size: 1.3em;
+  padding: 20px;
+}
 .frant-user-interviews,
-.frant-user-journey,
 .frant-sketching,
 .frant-wireframes,
 .frant-final-result{
@@ -342,13 +354,26 @@ Frant
   margin-top: 40px;
   margin-bottom: 50px;
 }
-.startup-weekend{
-  width: 105%;
-  margin-left: -15px;
+#frant-logo{
+  width: 90%;
 }
+
 .frant-img{
   width: 100%;
 }
+.frant-final-img{
+  margin-bottom: 40px;
+  width: 100%;
+}
+.other-works{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cube2{
+  width: 20%;
+  margin: 0px -3px;
+}
+
 /**********************************************************
 xfers 
 **********************************************************/
