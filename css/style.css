@@ -416,3 +416,49 @@ xfers
   margin-bottom: 40px;
   width: 100%;
 }
+
+/**********************************************************
+bimy
+**********************************************************/
+.bimy-user-journey{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.bimy-initial-concept{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-top: -20px;
+}
+.bimy-intro{
+  font-size: 1.3em;
+  padding: 20px;
+}
+.bimy-web-mobile{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-bottom: -20px;
+}
+.bimy-user-journey,
+.bimy-sketching,
+.bimy-wireframes,
+.bimy-final-result{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.bimy-img{
+  width: 100%;
+}
+.bimy-final-img{
+  margin-bottom: 40px;
+  width: 100%;
+}
+.no-bullets{
+  list-style-type: none;
+}
+.bimy-img-flow{
+  width: 80%;
+  margin-left: 30px;
+  padding: 10px 10px;
+}
