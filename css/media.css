@@ -4,11 +4,7 @@
 and (min-width : 0) 
 and (max-width : 1150px) 
 {
-	#inner-content
-	{
-		width: 80%;
-	}
-	#work_display
+	.work_display
 	{
 		width: 66%;
 	}
@@ -158,3 +154,180 @@ and (max-width : 480px)
 	}
 }
 
+/* New styles for the Web Section */
+
+@media only screen 
+and (min-width : 0) 
+and (max-width : 1150px) 
+{
+	#inner-content
+	{
+		width: 80%;
+	}
+	#work_display
+	{
+		width: 66%;
+	}
+}
+
+@media only screen 
+and (min-width : 0) 
+and (max-width : 1100px) 
+{
+	body
+	{
+		min-width: 0;
+	}
+	.container
+	{
+		width: 90%;
+	}
+	#header
+	 {
+	  	width: 90%;
+	 }
+	 /*project*/
+
+	 #work_display
+	 {
+	 	width: 63%;
+		padding-left: 3%;
+	 }
+	#profilepic{
+		width: 80%;
+		float: center;
+	}
+}
+
+
+}
+@media only screen 
+and (min-width : 0) 
+and (max-width : 1024px) 
+{
+	.nav
+	{
+		min-width: 0;
+	}
+	#nav h3.logo
+	{
+		top: 5px;
+	}
+	
+	.work
+	{
+		margin-top: 60px;
+	}
+	#header
+	{
+		height: 526px;
+	}
+	#works
+	{
+		height: auto;
+	}
+}
+@media only screen 
+and (min-width : 0) 
+and (max-width : 860px) 
+{
+	#banner-caption
+	{
+		width: 654px;
+		height: 365px;
+	}
+	#header {
+		height: 490px;
+	}
+}
+@media only screen 
+and (min-width : 0) 
+and (max-width : 768px) 
+{
+
+	#banner-caption
+	{
+		width: 562px;
+		height: 300px;
+	}
+	#header
+	{
+		height: 440px;
+		padding-top: 5px;
+	}
+
+	/*project*/
+
+	.work_display
+	{
+		width: 94%;
+	}
+		.work li
+	{
+		width: 50%;
+	}
+}
+@media only screen 
+and (min-width : 0) 
+and (max-width : 640px) 
+{
+    #banner-caption {
+		width: 494px;
+		height: 261px;
+	}
+	#header {
+		height: 370px;
+	}
+	.dock_email
+	{
+		display: none;
+	}
+	.work_display
+	{
+		width: 100%;
+		padding: 0;
+	}
+	.work_display .line:first-child
+	{
+		margin:0 0 20px 0;
+	}
+}
+@media only screen 
+and (min-width : 0) 
+and (max-width : 560px) 
+{
+	#banner-caption
+	{
+		width: 412px;
+		height: 220px;
+	}
+	#header
+	{
+		height: 330px;
+	}
+	#works
+	{
+		background: none;
+	}
+}
+@media only screen 
+and (min-width : 0) 
+and (max-width : 480px) 
+{
+	#nav h3.logo
+	{
+		top: 5px;
+	}
+	#banner-caption
+	{
+		display: none;
+	}
+	#header {
+		height: 60px;
+	}
+	#header h3.logo
+	{
+		width: 100%;
+		text-align: center;
+	}
+}
