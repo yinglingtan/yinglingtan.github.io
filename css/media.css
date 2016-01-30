@@ -370,6 +370,7 @@ and (max-width : 480px)
 	}
 	.about-text{
 		text-align: center;
+		font-size: 16px;
 	}
 	.yl-logo{
 		display: block;
