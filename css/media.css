@@ -8,6 +8,9 @@ and (max-width : 1150px)
 	{
 		width: 66%;
 	}
+	.nav{
+		margin-top: 100px;
+	}
 }
 
 @media only screen 
@@ -35,29 +38,30 @@ and (max-width : 1100px)
 		padding-left: 3%;
 	}
 	.profilepic{
-		width: 80%;
-		float: center;
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.about-text2{
+		display: none;
+	}
+	.nav{
+		margin-top: 30px;
 	}
 }
 @media only screen 
 and (min-width : 0) 
 and (max-width : 1024px) 
 {
-	.nav
-	{
-		min-width: 0;
-	}
-	#nav h3.logo
-	{
-		top: 5px;
-	}	
+	
 	.work
 	{
 		margin-top: 60px;
 	}
 	.header
 	{
-		height: 526px;
+		max-width: 80%;
 	}
 	.footer
 	{
@@ -71,15 +75,24 @@ and (max-width : 1024px)
 	{
 		height: auto;
 	}
+	.yl-logo{
+		width: 20%;
+	}
+	.profilepic{
+		width: 30%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav{
+		margin-top: 30px;
+	}
 
 }
 @media only screen 
 and (min-width : 0) 
 and (max-width : 860px) 
-{
-	.header {
-		height: 490px;
-	}
+{	
 }
 @media only screen 
 and (min-width : 0) 
@@ -96,13 +109,16 @@ and (max-width : 768px)
 	{
 		width: 94%;
 	}
+	.nav{
+		margin-top: 30px;
+	}
 }
 @media only screen 
 and (min-width : 0) 
 and (max-width : 640px) 
 {
 	.header {
-		height: 370px;
+		width: 100%;
 	}
 	.dock_email
 	{
@@ -123,6 +139,14 @@ and (max-width : 640px)
 	{
 		margin:0 0 20px 0;
 	}
+	.resume
+	{
+		width: 92%
+	}
+	.nav{
+		margin-top: 30px;
+	}
+
 }
 @media only screen 
 and (min-width : 0) 
@@ -135,22 +159,17 @@ and (max-width : 560px)
 	.works
 	{
 		background: none;
+	}
+	.resume{
+		width: 90%;
+	}
 }
 @media only screen 
 and (min-width : 0) 
 and (max-width : 480px) 
 {
-	.nav h3.logo
-	{
-		top: 5px;
-	}
-	.header {
-		height: 60px;
-	}
-	.header h3.logo
-	{
-		width: 100%;
-		text-align: center;
+	.resume{
+		width: 90%;
 	}
 }
 
@@ -239,6 +258,9 @@ and (max-width : 860px)
 	#header {
 		height: 490px;
 	}
+	.resume{
+		width: 90%;
+	}
 }
 @media only screen 
 and (min-width : 0) 
@@ -266,6 +288,9 @@ and (max-width : 768px)
 	{
 		width: 50%;
 	}
+	.resume{
+		width: 90%;
+	}
 }
 @media only screen 
 and (min-width : 0) 
@@ -291,6 +316,13 @@ and (max-width : 640px)
 	{
 		margin:0 0 20px 0;
 	}
+	.resume{
+		width: 90%;
+	}
+	.header{
+		width: auto;
+    	height: auto;
+	}
 }
 @media only screen 
 and (min-width : 0) 
@@ -309,6 +341,13 @@ and (max-width : 560px)
 	{
 		background: none;
 	}
+	.resume{
+		width: 90%;
+	}
+	.header{
+		width: auto;
+    	height: auto;
+	}
 }
 @media only screen 
 and (min-width : 0) 
@@ -322,12 +361,17 @@ and (max-width : 480px)
 	{
 		display: none;
 	}
-	#header {
-		height: 60px;
+	.header{
+		width: auto;
+    	height: auto;
 	}
-	#header h3.logo
-	{
-		width: 100%;
-		text-align: center;
+	.resume{
+		width: 80%;
+	}
+	.text-resume{
+		display: none;
+	}
+	.lets-work{
+		margin-top: 300px;
 	}
 }
