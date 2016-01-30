@@ -367,11 +367,13 @@ and (max-width : 480px)
 	}
 	.resume{
 		width: 80%;
+		margin-right: 20px;
+		margin-left: 30px;
 	}
 	.text-resume{
 		display: none;
 	}
 	.lets-work{
-		margin-top: 300px;
+		margin-top: 650px;
 	}
 }
