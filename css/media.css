@@ -75,6 +75,14 @@ and (max-width : 1024px)
 	{
 		height: auto;
 	}
+	.nav{
+		margin-top: 30px;
+	}
+}
+@media only screen 
+and (min-width : 0) 
+and (max-width : 991px) 
+{
 	.yl-logo{
 		width: 20%;
 	}
@@ -84,15 +92,14 @@ and (max-width : 1024px)
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.nav{
-		margin-top: 30px;
-	}
-
 }
 @media only screen 
 and (min-width : 0) 
 and (max-width : 860px) 
 {	
+	.lets-work{
+		margin-top: 240px;
+	}
 }
 @media only screen 
 and (min-width : 0) 
@@ -170,6 +177,9 @@ and (max-width : 480px)
 {
 	.resume{
 		width: 90%;
+	}
+	.col-md-7{
+	    display: none;
 	}
 }
 
@@ -277,6 +287,9 @@ and (max-width : 768px)
 		height: 440px;
 		padding-top: 5px;
 	}
+	.lets-work{
+		padding-top: 80px;
+	}
 
 	/*project*/
 
@@ -295,6 +308,14 @@ and (max-width : 768px)
 		margin-top: 30px; 
 	}
 }
+@media only screen 
+and (min-width : 0) 
+and (max-width : 745px)
+ 	}
+	.lets-work{
+		margin-top: 80px;
+	}
+{
 @media only screen 
 and (min-width : 0) 
 and (max-width : 640px) 
@@ -351,6 +372,24 @@ and (max-width : 560px)
 		width: auto;
     	height: auto;
 	}
+	.col-md-7{
+	    display: none;
+	}
+	.yl-logo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+		width: 60%;
+	}
+}
+@media only screen 
+and (min-width : 480px) 
+and (max-width : 500px) 
+{
+	.resume{
+		width: 60%;
+	}
 }
 @media only screen 
 and (min-width : 0) 
@@ -390,6 +429,7 @@ and (max-width : 480px)
 	.job-title{
 		font-size: 16px;
 	}
+
 
 	/*bimy page*/
 	.vid-demo{
