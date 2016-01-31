@@ -392,13 +392,16 @@ and (max-width : 480px)
 	.vid-demo{
 		width: 120%;
 		height: auto;
-		margin-left: -40px;
+		margin-left: -30px;
 	}
 	.yl-logo-2{
 		display: none;
 	}
 	.cube2{
 		width: 80%;
+	}
+	.project-container{
+		margin-left: -20px;
 	}
 /*	}
 	.bimy-img-flow{
