@@ -181,6 +181,55 @@ and (max-width : 480px)
 	.col-md-7{
 	    display: none;
 	}
+	}
+	.header{
+		width: 100%;
+		height: auto;
+	}
+	.text-resume{
+		display: none;
+	}
+	.icons{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.profilepic{
+		width: 80%;
+	}
+	.about-text{
+		text-align: center;
+		font-size: 16px;
+	}
+	.yl-logo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+		width: 70%;
+	}
+	.nav{
+		display: none;
+	}
+	.job-title{
+		font-size: 16px;
+	}
+
+
+	/*bimy page*/
+	.vid-demo{
+		width: 120%;
+		height: auto;
+		margin-left: -30px;
+	}
+	.yl-logo-2{
+		display: none;
+	}
+	.cube2{
+		width: 80%;
+	}
+	.project-container{
+		margin-left: -5px;
+	}
 }
 
 /* New styles for the Web Section */
@@ -380,14 +429,6 @@ and (max-width : 560px)
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 5px;
-		width: 60%;
-	}
-}
-@media only screen 
-and (min-width : 480px) 
-and (max-width : 500px) 
-{
-	.resume{
 		width: 60%;
 	}
 }
