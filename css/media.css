@@ -365,6 +365,7 @@ and (max-width : 480px)
 	}
 	.icons{
 		width: 100%;
+		margin-bottom: 10px;
 	}
 	.profilepic{
 		width: 80%;
@@ -382,6 +383,9 @@ and (max-width : 480px)
 	}
 	.nav{
 		display: none;
+	}
+	.job-title{
+		font-size: 16px;
 	}
 
 }
