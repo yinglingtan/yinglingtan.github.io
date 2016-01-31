@@ -404,4 +404,15 @@ and (max-width : 480px)
 		width: 130%;
 		margin-left: -60px;
 	}
+	#bimy-logo{
+		margin-left: -15px;
+	}
+	.experience,
+	.wireframes,
+	.user-tests,
+	.user-journey,
+	.text-concept,
+	.bimy-intro-2{
+		display: none;
+	}
 }
