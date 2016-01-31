@@ -396,4 +396,12 @@ and (max-width : 480px)
 	.yl-logo-2{
 		display: none;
 	}
+	.bimy-img-flow{
+		width: 150%;
+		margin-left: -90px;
+	}
+	.bimy-img{
+		width: 130%;
+		margin-left: -60px;
+	}
 }
