@@ -389,13 +389,18 @@ and (max-width : 480px)
 	}
 
 	/*bimy page*/
-/*	.vid-demo{
-		width: 90%;
+	.vid-demo{
+		width: 120%;
 		height: auto;
+		margin-left: -40px;
 	}
 	.yl-logo-2{
 		display: none;
 	}
+	.cube2{
+		width: 80%;
+	}
+/*	}
 	.bimy-img-flow{
 		width: 150%;
 		margin-left: -90px;
@@ -414,5 +419,5 @@ and (max-width : 480px)
 	.text-concept,
 	.bimy-intro-2{
 		display: none;
-	}
-}*/
+	}*/
+}
