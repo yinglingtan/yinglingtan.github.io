@@ -360,10 +360,8 @@ and (max-width : 480px)
 	.header{
 		width: 100%;
 	}
-	.resume{
+	.text-resume{
 		display: none;
-	}
-	.lets-work{
 	}
 	.profilepic{
 		width: 80%;
