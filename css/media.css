@@ -363,6 +363,9 @@ and (max-width : 480px)
 	.text-resume{
 		display: none;
 	}
+	.icons{
+		width: 100%;
+	}
 	.profilepic{
 		width: 80%;
 	}
@@ -375,7 +378,7 @@ and (max-width : 480px)
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 20px;
-		width: 80%;
+		width: 70%;
 	}
 	.nav{
 		display: none;
