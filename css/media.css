@@ -396,8 +396,4 @@ and (max-width : 480px)
 	.yl-logo-2{
 		display: none;
 	}
-	.bimy-img{
-		width: 200%;
-		height: auto;
-	}
 }
