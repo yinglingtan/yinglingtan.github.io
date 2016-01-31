@@ -392,7 +392,7 @@ and (max-width : 480px)
 	.vid-demo{
 		width: 120%;
 		height: auto;
-		margin-left: -30px;
+		margin-left: -35px;
 	}
 	.yl-logo-2{
 		display: none;
@@ -401,7 +401,7 @@ and (max-width : 480px)
 		width: 80%;
 	}
 	.project-container{
-		margin-left: -20px;
+		margin-left: -5px;
 	}
 /*	}
 	.bimy-img-flow{
