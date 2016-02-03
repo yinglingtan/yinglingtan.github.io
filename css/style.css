@@ -286,7 +286,7 @@ Contact Dock
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   text-align: center;
 }
-.dock-email,.dock-linkedIn, .dock-dribble
+.dock-email,.dock-linkedIn
 {
   padding-left:30px;
   display: inline-block;
@@ -299,14 +299,14 @@ Contact Dock
   width:1000px;
   margin:0 auto;
 }
-.contact-dock, .dock-email a, .dock-linkedIn a, .dock-dribble a
+.contact-dock, .dock-email a, .dock-linkedIn a
 {
   color:#fff;
   text-decoration:none;
   padding-right:25px;
   line-height: 40px;
 }
-.contact-dock, .dock-email a:hover, .dock-linkedIn a:hover, .dock-dribble a:hover
+.contact-dock, .dock-email a:hover, .dock-linkedIn a:hover
 {
   color: #fff;
 }
@@ -357,7 +357,8 @@ Frant
   margin-bottom: 20px;
 }
 #frant-logo{
-  width: 90%;
+  margin-top: 30px;
+  width: 80%;
 }
 
 .frant-img{
