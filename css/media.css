@@ -309,6 +309,7 @@ and (max-width : 560px)
 	}
 	.resume{
 		width: 90%;
+		margin-left: -15px;
 	}
 	#banner-caption
 	{
@@ -322,9 +323,6 @@ and (max-width : 560px)
 	#works
 	{
 		background: none;
-	}
-	.resume{
-		width: 90%;
 	}
 	.header{
 		width: auto;
