@@ -1,0 +1,220 @@
+body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E9EDEF;
+}
+.container{
+  max-width: 900px;
+}
+.navbar{
+  background-color: #E9EDEF;
+  border-color: #E9EDEF;
+}
+.navbar-description{
+  padding-top: 15px;
+}
+.description{
+  margin-top: 75px;
+}
+.img-square {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+}
+.jumbotron-container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 50px 0;
+  max-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: solid #DDD 1px;
+}
+.text-center{
+  text-align: left;
+}
+#p-overrides{
+  font-size: 20px;
+}
+#btn-overrides{
+  padding-left: 0px;
+  }
+#text-muted-overrides{
+  font-size: 12px;
+  color: #4D4D4D;
+}
+.footer-width{
+  max-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right{
+  text-align: right;
+}
+.img-large{
+  max-width: 770px;
+  padding-bottom: 20px;
+}
+
+/*Mobile & Tablet View
+*/
+
+@media (max-width: 991px) {
+  .description{
+    margin:0px;
+  }
+  .navbar-description{
+  padding-top: 15px;
+  text-align: center;
+  } 
+  .starter-template {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .jumbotron-container {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 30px 0;
+  }
+  .img-square {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+  }
+  .img-rectangle {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .text-center{
+    text-align: center;
+  }
+  #p-overrides{
+    font-size: 16px;
+  }
+  #btn-overrides{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*writing page*/
+
+.writing-img{
+  margin: 40px auto;
+  display: block;
+}
+
+.line-separator{
+  height: 1px;
+  margin: 60px 0;
+  border: 1px solid #E9EDEF;
+}
+#p-writing{
+  line-height: 2; 
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+
+}
+#p-date{
+  font-size: 14px;
+}
+.img-rectangle {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/*about page*/
+#p-hashtags{
+  font-size: 14px;
+  font-weight: 400;
+}
+#p-company-name{
+  font-size: 14px;
+  text-align: center;
+}
+.img-company{
+  margin: 20px 0;
+}
+#p-job{
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+#about-title{
+  text-align: center;
+}
+.img-square-sm{
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+#p-job-dates{
+  margin-top: -14px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 200;
+}
+.journey{
+  margin-bottom: 30px;
+}
+#p-center{
+  text-align: center;
+}
+.img-dribbble {
+  width: 350px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  padding: 0px;
+}
+#p-title{
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+#p-title-dailyui{
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+
+/*portfolio pages*/
+#project-intro{
+  font-size: 16px;
+}
+.img-portfolio{
+  max-width: 750px;
+  height: auto;
+}
+  @media (max-width: 991px) {
+    .img-portfolio{
+      max-width: 320px;
+  }
+} 
+
