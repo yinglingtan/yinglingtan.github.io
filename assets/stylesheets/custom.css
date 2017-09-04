@@ -218,6 +218,29 @@ body {
 }
   @media (max-width: 991px) {
     .img-portfolio{
-      max-width: 320px;
+      max-width: 600px;
   }
-} 
+  @media (max-width: 670px) {
+    .img-portfolio{
+      max-width: 600px;
+  }
+  @media (max-width: 648px) {
+    .img-portfolio{
+      max-width: 500px;
+  }
+  @media (max-width: 560px) {
+    .img-portfolio{
+      max-width: 400px;
+  } 
+  @media (max-width: 464px) {
+    .img-portfolio{
+      max-width: 300px;
+  }
+  @media (max-width: 360px) {
+    .img-portfolio{
+      max-width: 280px;
+  }
+  @media (max-width: 320px) {
+    .img-portfolio{
+      max-width: 260px;
+  }
