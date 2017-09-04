@@ -13,8 +13,11 @@ body {
 .navbar-description{
   padding-top: 15px;
 }
-.description{
+.about-description{
   margin-top: 40px;
+}
+.description{
+  margin-top: 65px;
 }
 .img-square {
   width: 250px;
